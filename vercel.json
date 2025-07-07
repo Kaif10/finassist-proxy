@@ -3,9 +3,9 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "http://<your-ecs-public-ip>:8000/$1",
+      "dest": "http://184.72.191.98:8000/$1",
       "headers": {
-        "host": "<your-ecs-public-ip>"
+        "host": "184.72.191.98"
       }
     }
   ]
